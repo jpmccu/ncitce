@@ -1,0 +1,16 @@
+Ontology: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl>
+
+Import: <http://protege.stanford.edu/plugins/owl/protege>
+
+Annotations: 
+    rdfs:comment "NCI Thesaurus, a controlled vocabulary in support of
+NCI administrative and scientific activities.
+
+Produced by the Enterprise Vocabulary System (EVS), a project 
+by the NCI Center for Bioinformatics.  National Cancer Institute,
+National Institutes of Health, Bethesda, MD 20892, U.S.A."^^xsd:string,
+    rdfs:comment "The Protege metadata ontology (in the version that is used inside Protege. Note that this is an OWL Full ontology, with annotation properties that have range and domain restrictions. However, the \"official\" online release of this file is OWL DL, so that ontologies that use Protege metadata annotations can still be shared as OWL DL."^^xsd:string,
+    owl:versionInfo "11.02d"^^xsd:string,
+    protege:defaultLanguage "en"^^xsd:string
+
+

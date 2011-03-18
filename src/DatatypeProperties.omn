@@ -1,0 +1,895 @@
+DataProperty: Synonym
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Synonym</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DesignNote "This property is no longer filled by editors; instead it is generated from the FULL_SYN property when the Thesaurus is published."^^xsd:string,
+        rdfs:label "Synonym"^^xsd:string,
+        Preferred_Name "Synonym"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Ways of referring to a concept that are valid alternatives to the preferred name that NCI uses to refer to the concept.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P104"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Synonym"^^xsd:string
+    
+    
+DataProperty: miRBase_ID
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>miRBase_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "miRBase_ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P362"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the accession number for an miRNA within the Sanger miRBase database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "miRBase_ID"^^xsd:string
+    
+    
+DataProperty: OLD_PARENT
+
+    Annotations: 
+        rdfs:label "OLD_PARENT"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to store the name of parent concepts present at the time a concept was retired.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_PARENT</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P200"^^xsd:string,
+        Display_Name "OLD PARENT"^^xsd:string,
+        Preferred_Name "OLD_PARENT"^^xsd:string
+    
+    
+DataProperty: Mitelman_Code
+
+    Annotations: 
+        rdfs:label "Mitelman_Code"^^xsd:string,
+        Display_Name "Mitelman Code"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Mitelman_Code</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Mitelman_Code"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P170"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Felix Mitelman's codes for the topography and morphology terms he uses to code his Chromosome Aberrations Database, data which is included in NCI's Cancer Genome Anatomy Project (CGAP) databases.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: UMLS_CUI
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>UMLS_CUI</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P207"^^xsd:string,
+        Preferred_Name "UMLS_CUI"^^xsd:string,
+        rdfs:label "UMLS_CUI"^^xsd:string,
+        Display_Name "UMLS CUI"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Concept Unique Identifiers, or CUIs, are concept numbers assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: CAS_Registry
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the Chemical Abstracts Service number for a Chemical or Drug.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "CAS Registry Number"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>CAS_Registry</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "CAS_Registry"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "CAS_Registry"^^xsd:string,
+        code "P210"^^xsd:string
+    
+    
+DataProperty: Use_For
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Use_For</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P333"^^xsd:string,
+        Display_Name "Use For"^^xsd:string,
+        rdfs:label "Use_For"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Use_For"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates a term that had been used in a coding system and then subsumed by the given NCIt concept.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Nutrient
+
+    Annotations: 
+        Preferred_Name "Nutrient"^^xsd:string,
+        ALT_DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property indicating that a food component must be taken into the body preformed and in sufficient quantity to meet the body's needs for growth, reproduction and/or maintenance of health.</ncicp:def-definition><ncicp:def-source>CRCH</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P358"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Nutrient</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Nutrient</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Nutrient"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string,
+        Display_Name "Is A Nutrient"^^xsd:string
+    
+    
+DataProperty: LONG_DEFINITION
+
+    Annotations: 
+        Preferred_Name "LONG_DEFINITION"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to house the full text of an NCI definition that is too long to conform to the 1024 character limit of a DEFINITION.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P206"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>LONG_DEFINITION</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "LONG_DEFINITION"^^xsd:string,
+        Display_Name "[merged into Definition]"^^xsd:string
+    
+    
+DataProperty: OMIM_Number
+
+    Annotations: 
+        Display_Name "OMIM Number"^^xsd:string,
+        rdfs:label "OMIM_Number"^^xsd:string,
+        code "P100"^^xsd:string,
+        Preferred_Name "OMIM_Number"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the accession number for a Protein or Gene within the OMIM database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OMIM_Number</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Micronutrient
+
+    Annotations: 
+        Display_Name "Is A Micronutrient"^^xsd:string,
+        code "P359"^^xsd:string,
+        Preferred_Name "Micronutrient"^^xsd:string,
+        rdfs:label "Micronutrient"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Micronutrient</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        ALT_DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property indicating a class of food components required for proper health and that are typically consumed in microgram or milligram amounts.</ncicp:def-definition><ncicp:def-source>CRCH</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Micronutrient</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Contributing_Source "CRCH"^^xsd:string,
+        Unit "mg"^^xsd:string
+    
+    
+DataProperty: OLD_CHILD
+
+    Annotations: 
+        code "P201"^^xsd:string,
+        rdfs:label "OLD_CHILD"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_CHILD</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to store the name of children concepts present at the time a concept was retired.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "OLD CHILD"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "OLD_CHILD"^^xsd:string
+    
+    
+DataProperty: NCBI_Taxon_ID
+
+    Annotations: 
+        Display_Name "NCBI Taxon ID"^^xsd:string,
+        code "P331"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NCBI_Taxon_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The NCBI_Taxon_ID property is used to establish correspondence between the NCI Thesaurus concept representing a taxon (species) and the NCBI/NLM Species Taxonomy ID assigned by the NCBI to that taxon.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "NCBI_Taxon_ID"^^xsd:string,
+        rdfs:label "NCBI_Taxon_ID"^^xsd:string
+    
+    
+DataProperty: BioCarta_ID
+
+    Annotations: 
+        rdfs:label "BioCarta_ID"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the BioCarta ID code for a pathway. It can be used to link a BioCarta pathway reference to the primary pathway information.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "BioCarta ID"^^xsd:string,
+        Preferred_Name "BioCarta_ID"^^xsd:string,
+        code "P216"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>BioCarta_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Contributing_Source
+
+    Annotations: 
+        Preferred_Name "Contributing_Source"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Contributing_Source</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>This property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept.  This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Contributing Source"^^xsd:string,
+        rdfs:label "Contributing_Source"^^xsd:string,
+        code "P322"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+DataProperty: Legacy_Concept_Name
+
+    Annotations: 
+        code "P366"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Legacy Concept Name</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        protege:readOnly "true"^^xsd:string,
+        Preferred_Name "Legacy Concept Name"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A retired unique concept identifier created and stored as Concept Name by legacy EVS software.  Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired.  Legacy values are intended solely to help resolve and update earlier coding.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Legacy_Concept_Name"^^xsd:string
+    
+    
+DataProperty: Maps_To_LASH
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used for mapping from the IMT disease codes used by NCI's Cancer Therapy Evaluation Program (CTEP) to the LASH morphology and topography. This is not an exact mapping.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Maps_To_LASH"^^xsd:string,
+        Display_Name "Maps To LASH"^^xsd:string,
+        code "P169"^^xsd:string,
+        Preferred_Name "Maps_To_LASH"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Maps_To_LASH</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: OID
+
+    Annotations: 
+        rdfs:label "OID"^^xsd:string,
+        code "P320"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "OID"^^xsd:string,
+        Preferred_Name "OID"^^xsd:string
+    
+    
+DataProperty: GenBank_Accession_Number
+
+    Annotations: 
+        Preferred_Name "GenBank_Accession_Number"^^xsd:string,
+        code "P102"^^xsd:string,
+        Display_Name "GenBank Accession Number"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>GenBank_Accession_Number</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the accession number for a Gene within the GenBank database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "GenBank_Accession_Number"^^xsd:string
+    
+    
+DataProperty: OLD_SOURCE_ASSOCIATION
+
+    Annotations: 
+        Preferred_Name "OLD_SOURCE_ASSOCIATION"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_SOURCE_ASSOCIATION</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "OLD_SOURCE_ASSOCIATION"^^xsd:string,
+        code "P365"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property used to temporarily store the name and value of associations present at the time a concept is premerged or preretired, where the target of the association is the concept being retired. Values stored in this property are restored as associations on the source concept if the merge or retire is rejected.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: MGI_Accession_ID
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>MGI_Accession_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "MGI_Accession_ID"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The identifier used by Jackson Laboratories Mouse Genome Informatics group to label inbred mouse strains maintained by Jackson Laboratory and other things such as mouse genes and alleles.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "MGI Accession ID"^^xsd:string,
+        Preferred_Name "MGI_Accession_ID"^^xsd:string,
+        code "P332"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+DataProperty: OLD_KIND
+
+    Annotations: 
+        code "P203"^^xsd:string,
+        Preferred_Name "OLD_KIND"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to store the name of the concept's kind at the time a concept was retired.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "OLD KIND"^^xsd:string,
+        rdfs:label "OLD_KIND"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_KIND</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+DataProperty: PDQ_Closed_Trial_Search_ID
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The identifier used by NCI's Cancer.gov web site to retrieve PDQ Clinical Trials data for closed trials that involved specific clinical trials agents.  While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values only where trials will be retrieved.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P330"^^xsd:string,
+        rdfs:label "PDQ_Closed_Trial_Search_ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>PDQ_Closed_Trial_Search_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "PDQ Closed Trial Search ID"^^xsd:string,
+        Preferred_Name "PDQ_Closed_Trial_Search_ID"^^xsd:string
+    
+    
+DataProperty: NSC_Code
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A numeric identifier for substances submitted to the National Cancer Institute (NCI) for testing and evaluation. It is named after the Cancer Chemotherapy National Service Center (CCNSC), created in 1955, which originally ran the testing program and assigned these numbers. The testing program and repository is now run by the NCI Developmental Therapeutics Program (DTP).  Assignment of NSC numbers was never done in a way that would guarantee one and only one NSC number would be assigned to a particular substance.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "NSC_Number"^^xsd:string,
+        code "P175"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NSC_Code</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "NSC_Code"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NSC_Number</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NSC_Number_Property</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "NSC Number"^^xsd:string
+    
+    
+DataProperty: USDA_ID
+
+    Annotations: 
+        Display_Name "USDA ID"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Numeric ID assignment by United States Department of Agriculture.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "USDA_ID"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>USDA_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P354"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>USDA ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string,
+        rdfs:label "USDA_ID"^^xsd:string
+    
+    
+DataProperty: Extensible_List
+
+    Annotations: 
+        rdfs:label "Extensible_List"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>List Extensible</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Describes the ability to extend the set of values in a particular list.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P361"^^xsd:string,
+        Preferred_Name "Extensible_List"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Extensible_List</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: OLD_STATE
+
+    Annotations: 
+        Display_Name "OLD STATE"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_STATE</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P205"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to store the state of a concept, primitive or defined, at the time a concept was retired.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "OLD_STATE"^^xsd:string,
+        Preferred_Name "OLD_STATE"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+DataProperty: Essential_Amino_Acid
+
+    Annotations: 
+        rdfs:label "Essential_Amino_Acid"^^xsd:string,
+        code "P356"^^xsd:string,
+        Display_Name "Is An Essential Amino Acid"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Property used to indicate that an amino acid is essential and must be included in the diet.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Essential_Amino_Acid"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Essential_Amino_Acid</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: ALT_DEFINITION
+
+    Annotations: 
+        Display_Name "[source] Definition"^^xsd:string,
+        rdfs:label "ALT_DEFINITION"^^xsd:string,
+        code "P325"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>ALT_DEFINITION</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>English language definitions of what a source other than NCI means by the concept. These are limited to 1024 characters. They include information about the definition's source in a form that can easily be interpreted by software.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "ALT_DEFINITION"^^xsd:string
+    
+    
+DataProperty: OLD_ASSOCIATION
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to store the name and value of associations present at the time a concept was retired.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "OLD_ASSOCIATION"^^xsd:string,
+        rdfs:label "OLD_ASSOCIATION"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_ASSOCIATION</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P364"^^xsd:string
+    
+    
+DataProperty: Neoplastic_Status
+
+    Annotations: 
+        Contributing_Source "FDA"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Neoplastic_Status</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Neoplastic_Status"^^xsd:string,
+        Display_Name "Neoplastic Status"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The morphologic, clinical, and genetic profile of a neoplastic growth that defines it as non-cancerous, cancerous, or of uncertain cancerous potential.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P363"^^xsd:string,
+        Preferred_Name "Neoplastic_Status"^^xsd:string
+    
+    
+DataProperty: FULL_SYN
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "FULL_SYN"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Synonym with Source Data</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>FULL_SYN</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "FULL_SYN"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Term & Source Data"^^xsd:string,
+        code "P90"^^xsd:string
+    
+    
+DataProperty: ICD-O-3_Code
+
+    Annotations: 
+        Preferred_Name "ICD-O-3_Code"^^xsd:string,
+        code "P334"^^xsd:string,
+        Display_Name "ICD-O-3 Code"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>ICD-O-3_Code</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the matching ICD-O-3 code for the NCI Thesaurus concept.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "ICD-O-3_Code"^^xsd:string
+    
+    
+DataProperty: PubMedID_Primary_Reference
+
+    Annotations: 
+        code "P171"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used by the MMHCC vocabulary to provide a primary reference for descriptions of mouse diseases.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>PubMedID_Primary_Reference</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "PubMedID_Primary_Reference"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "PubMedID Primary Reference"^^xsd:string,
+        Preferred_Name "PubMedID_Primary_Reference"^^xsd:string
+    
+    
+DataProperty: GO_Annotation
+
+    Annotations: 
+        Preferred_Name "GO_Annotation"^^xsd:string,
+        Display_Name "GO Annotation"^^xsd:string,
+        rdfs:label "GO_Annotation"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P211"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>GO_Annotation</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Contains information that can be used for cross-referencing to relevant entries in the Gene Ontology database including term name, code, and evidence code.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: code
+
+    Annotations: 
+        protege:readOnly "true"^^xsd:string,
+        code "NHC0"^^xsd:string
+    
+    
+DataProperty: Image_Link
+
+    Annotations: 
+        Preferred_Name "Image_Link"^^xsd:string,
+        code "P167"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Image_Link</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Image_Link"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Provides a link to an image in an external database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Image Link"^^xsd:string
+    
+    
+DataProperty: Related_Lash_Concept
+
+    Annotations: 
+        rdfs:label "Related_Lash_Concept"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Related_Lash_Concept</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Related Lash Concept"^^xsd:string,
+        code "P209"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Related_Lash_Concept"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Direct mapping from LASH (ELC2001) to the NCI Thesaurus. This property is provided for use by the Cancer Genome Anatomy Project (CGAP) and the Cancer Molecular Analysis Project (CMAP).</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Swiss_Prot
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the accession number for a Protein within the Swiss-Prot database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Swiss_Prot"^^xsd:string,
+        Display_Name "Swiss Prot"^^xsd:string,
+        Preferred_Name "Swiss_Prot"^^xsd:string,
+        code "P93"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Swiss_Prot</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: ALT_LONG_DEFINITION
+
+    Annotations: 
+        Display_Name "[merged into Alt. Definition]"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to house the full text of a non-NCI definition that is too long to conform to the 1024 character limit of an ALT_DEFINITION.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "ALT_LONG_DEFINITION"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>ALT_LONG_DEFINITION</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P326"^^xsd:string,
+        rdfs:label "ALT_LONG_DEFINITION"^^xsd:string
+    
+    
+DataProperty: Related_MedDRA_Code
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Related_MedDRA_Code</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Nearest matching MedDRA code for MedDRA/ CTEP disease names used in coding CTEP Clinical Trials.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Related_MedDRA_Code"^^xsd:string,
+        code "P181"^^xsd:string,
+        rdfs:label "Related_MedDRA_Code"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Related MedDRA Code"^^xsd:string
+    
+    
+DataProperty: INFOODS
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>INFOODS</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "INFOODS"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Uppercase abbreviations assigned by the International Network of Food Data Systems.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "INFOODS Tag Name"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>INFOODS</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P353"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "INFOODS"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string
+    
+    
+DataProperty: Display_Name
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Provides an alternative Preferred Name for use in some NCI systems.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P107"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Display Name</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Display_Name"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Display_Name</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Display_Name"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Display Name"^^xsd:string
+    
+    
+DataProperty: In_Clinical_Trial_For
+
+    Annotations: 
+        rdfs:label "In_Clinical_Trial_For"^^xsd:string,
+        Display_Name "In Clinical Trial For"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates a disease for which this drug is currently being tested as a potential treatment.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>In_Clinical_Trial_For</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P303"^^xsd:string,
+        Preferred_Name "In_Clinical_Trial_For"^^xsd:string
+    
+    
+DataProperty: KEGG_ID
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>KEGG_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the KEGG ID code for a pathway. It can be used to link a KEGG pathway reference to the primary pathway information.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "KEGG_ID"^^xsd:string,
+        Display_Name "KEGG ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P215"^^xsd:string,
+        Preferred_Name "KEGG_ID"^^xsd:string
+    
+    
+DataProperty: NDFRT_Code
+
+    Annotations: 
+        Preferred_Name "NDFRT_Code"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NDFRT_Code</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "NDFRT_Code"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P301"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Holds the unique US Veterans Affairs Administration National Drug Formulary Reference Terminology concept code associated with the NDFRT_Name.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "NDFRT Code"^^xsd:string
+    
+    
+DataProperty: Unit
+
+    Annotations: 
+        code "P355"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Unit</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Unit"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Unit</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Unit Used"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>the unit of measure in which a nutrient or food component is typically expressed, ex., gram (g), minigram (mg), microgram (mcg), joule, or kilojoule.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string,
+        Preferred_Name "Unit"^^xsd:string
+    
+    
+DataProperty: PID_ID
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>PID_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P367"^^xsd:string,
+        Preferred_Name "PID_ID"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the NCI/Nature Pathway Interaction Database ID code for a pathway. It can be used by the NCIt Browser to link a pathway concept to the source pathway information.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "PID_ID"^^xsd:string
+    
+    
+DataProperty: FDA_UNII_Code
+
+    Annotations: 
+        code "P319"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>FDA_UNII_Code</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "FDA_UNII_Code"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Contains the FDA Unique Ingredient Identifier, a key component of the new federal drug information model.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "FDA_UNII_Code"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "FDA UNII Code"^^xsd:string
+    
+    
+DataProperty: Locus_ID
+
+    Annotations: 
+        Preferred_Name "Locus_ID"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the accession number for a Protein or Gene within the LocusLink database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P94"^^xsd:string,
+        rdfs:label "Locus_ID"^^xsd:string,
+        Display_Name "Locus ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "Locus_ID has been deprecated and has been replaced by EntrezGene_ID. This property may still exist in other deprecated (retired) concepts."^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Locus_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>GeneID</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Subsource
+
+    Annotations: 
+        rdfs:label "Subsource"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Currently used by MMHCC to identify the source of various mouse disease concepts.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P92"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Subsource"^^xsd:string,
+        Display_Name "Subsource"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Subsource</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: DesignNote
+
+    Annotations: 
+        Display_Name "DesignNote"^^xsd:string,
+        code "P98"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "DesignNote"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "DesignNote"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>DesignNote</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Homologous_Gene
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>This indicates genes from other organisms that are similar in sequence and provide insight to the gene's function.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Homologous_Gene"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Homologous_Gene</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P101"^^xsd:string,
+        Display_Name "Homologous Gene"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Homologous_Gene"^^xsd:string
+    
+    
+DataProperty: Concept_Status
+
+    Annotations: 
+        rdfs:label "Concept_Status"^^xsd:string,
+        code "P310"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Concept_Status</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Concept Status"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>An NCI Thesaurus property used to indicate the standing of a concept in relation to currently accepted classifications and concepts. In NCI Thesaurus concept status subtype indicates concepts with unusual and problematic characteristics that should be evaluated by people and/or programs before those concept are used.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Concept_Status"^^xsd:string
+    
+    
+DataProperty: Tolerable_Level
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Tolerable Level</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Tolerable Level"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Tolerable_Level</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P352"^^xsd:string,
+        Preferred_Name "Tolerable_Level"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Tolerable_Level"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string,
+        ALT_DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property indicating that the Food and Nutrition Board of the National Academy of Science has established a highest level of daily intake for this food component that is likely to pose no risk of adverse health effects for almost all individuals in the general U.S. population.</ncicp:def-definition><ncicp:def-source>CRCH</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Semantic_Type
+
+    Annotations: 
+        DesignNote "In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS."^^xsd:string,
+        code "P106"^^xsd:string,
+        Display_Name "Semantic Type"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Semantic_Type</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Semantic_Type"^^xsd:string,
+        Preferred_Name "Semantic_Type"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+DataProperty: Preferred_Name
+
+    Annotations: 
+        code "P108"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The word or phrase that NCI uses by preference to refer to the concept.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Preferred_Name</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Preferred Name"^^xsd:string,
+        Preferred_Name "Preferred_Name"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Preferred_Name"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Preferred Term</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Preferred Name</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Relative_Enzyme_Activity
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Relative_Enzyme_Activity</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates drug efficacy of the allelic product.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Relative_Enzyme_Activity"^^xsd:string,
+        Display_Name "Relative Enzyme Activity"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P316"^^xsd:string,
+        Preferred_Name "Relative_Enzyme_Activity"^^xsd:string
+    
+    
+DataProperty: US_Recommended_Intake
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Recommended Intake</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Required_Intake</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>US_Recommended_Intake</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "US FNB Recommends Intake"^^xsd:string,
+        ALT_DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property indicating that the Food and Nutrition Board of the National Academy of Science has established an average daily intake for this nutrient that is sufficient to meet the nutritional requirements of most individuals in the general U.S. population.</ncicp:def-definition><ncicp:def-source>CRCH</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "US_Recommended_Intake"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P351"^^xsd:string,
+        rdfs:label "US_Recommended_Intake"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string
+    
+    
+DataProperty: DEFINITION
+
+    Annotations: 
+        Preferred_Name "DEFINITION"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>DEFINITION</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P97"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Definition"^^xsd:string,
+        rdfs:label "DEFINITION"^^xsd:string
+    
+    
+DataProperty: EntrezGene_ID
+
+    Annotations: 
+        DesignNote "This property has replaced Locus_ID."^^xsd:string,
+        rdfs:label "EntrezGene_ID"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Locus_ID</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "P321"^^xsd:string,
+        Preferred_Name "EntrezGene_ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "EntrezGene ID"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EntrezGene_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the accession number for a Protein or Gene within the Entrez Gene database.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>GeneID</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: PDQ_Open_Trial_Search_ID
+
+    Annotations: 
+        rdfs:label "PDQ_Open_Trial_Search_ID"^^xsd:string,
+        Display_Name "PDQ Open Trial Search ID"^^xsd:string,
+        Preferred_Name "PDQ_Open_Trial_Search_ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P329"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>PDQ_Open_Trial_Search_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>The identifier used by NCI's Cancer.gov Web site to retrieve PDQ Clinical Trials data for open trials involving specific clinical trials agents.  While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values only where trials will be retrieved.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Split_From
+
+    Annotations: 
+        code "NHC4"^^xsd:string
+    
+    
+DataProperty: Chemical_Formula
+
+    Annotations: 
+        Display_Name "Chemical Formula"^^xsd:string,
+        rdfs:label "Chemical_Formula"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical Formula</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Formula</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Concise expression about the atoms that constitute a particular chemical compound.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P350"^^xsd:string,
+        Preferred_Name "Chemical_Formula"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string
+    
+    
+DataProperty: Macronutrient
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Macronutrient</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Macronutrient</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Unit "g"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P360"^^xsd:string,
+        Preferred_Name "Macronutrient"^^xsd:string,
+        ALT_DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property indicating a class of food components that contribute energy to the diet and that are typically consumed in multi-gram amounts.</ncicp:def-definition><ncicp:def-source>CRCH</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Macronutrient"^^xsd:string,
+        Contributing_Source "CRCH"^^xsd:string,
+        rdfs:label "Macronutrient"^^xsd:string
+    
+    
+DataProperty: FDA_Table
+
+    Annotations: 
+        Display_Name "FDA Table"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to flag terms that are part of an FDA data standard manual, including Route of Administration, Dosage Form, Package Type and Potency.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>FDA_Table</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "FDA_Table"^^xsd:string,
+        rdfs:label "FDA_Table"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "P317"^^xsd:string
+    
+    
+DataProperty: NCI_META_CUI
+
+    Annotations: 
+        Preferred_Name "NCI_META_CUI"^^xsd:string,
+        code "P208"^^xsd:string,
+        Display_Name "NCI Metathesaurus CUI"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "NCI_META_CUI"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Contains a Concept Unique Identifier for those concepts that appear in NCI Metathesaurus but not in the NLM UMLS.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NCI_META_CUI</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Essential_Fatty_Acid
+
+    Annotations: 
+        Display_Name "Is An Essential Fatty Acid"^^xsd:string,
+        code "P357"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Essential Fatty Acid</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>CRCH</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Essential_Fatty_Acid</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Essential_Fatty_Acid"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to indicate a fatty acid that is not efficiently synthesized by humans and must be included in the diet.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Contributing_Source "CRCH"^^xsd:string,
+        rdfs:label "Essential_Fatty_Acid"^^xsd:string
+    
+    
+DataProperty: NDFRT_Name
+
+    Annotations: 
+        Preferred_Name "NDFRT_Name"^^xsd:string,
+        rdfs:label "NDFRT_Name"^^xsd:string,
+        Display_Name "NDFRT Name"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>NDFRT_Name</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to hold US Veterans Affairs Administration National Drug Formulary Reference Terminology concept name with the same intended meaning as the associated Thesaurus Concept. Used for the purpose of mapping between NDFRT and NCI Thesaurus.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P300"^^xsd:string
+    
+    
+DataProperty: OLD_ROLE
+
+    Annotations: 
+        code "P204"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to store the name and value of asserted roles present at the time a concept was retired.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>OLD_ROLE</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "OLD_ROLE"^^xsd:string,
+        rdfs:label "OLD_ROLE"^^xsd:string,
+        Display_Name "OLD ROLE"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+DataProperty: SNP_ID
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>SNP_ID</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "SNP_ID"^^xsd:string,
+        Preferred_Name "SNP_ID"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the dbSNP id number for the genetic polymorphism due to base substitutions.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "SNP ID"^^xsd:string,
+        code "P315"^^xsd:string
+    
+    
+DataProperty: Gene_Encodes_Product
+
+    Annotations: 
+        code "P96"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Encodes_Product</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DesignNote "This represents the reciprocal relationship of the role Gene_Product_Encoded_by_Gene"^^xsd:string,
+        Preferred_Name "Gene_Encodes_Product"^^xsd:string,
+        Display_Name "Gene Encodes Product"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Gene_Encodes_Product"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the protein or RNA product expressed by a gene.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+DataProperty: Accepted_Therapeutic_Use_For
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Accepted_Therapeutic_Use_For</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Accepted_Therapeutic_Use_For"^^xsd:string,
+        Display_Name "Accepted Therapeutic Use For"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Accepted_Therapeutic_Use_For"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates a disease or condition for which this drug is an accepted treatment.  Used in Chemicals and Drug Kind.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "P302"^^xsd:string
+    
+    
+

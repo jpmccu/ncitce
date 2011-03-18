@@ -1,0 +1,2157 @@
+ObjectProperty: Biological_Process_Has_Result_Chemical_Or_Drug
+
+    Annotations: 
+        code "R29"^^xsd:string,
+        Preferred_Name "Biological_Process_Has_Result_Chemical_Or_Drug"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that the endpoint of a biological process is the creation of a drug, chemical or biomedical material. The domain and range for this role are 'Biological Process' and 'Drug, Food, Chemical or Biomedical Material', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Has Result Chemical Or Drug"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Has_Result_Chemical_Or_Drug</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Biological_Process_Has_Result_Chemical_Or_Drug"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Drugs_and_Chemicals
+    
+    
+ObjectProperty: Anatomic_Structure_Has_Location
+
+    Annotations: 
+        Preferred_Name "Anatomic_Structure_Has_Location"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Anatomic_Structure_Has_Location</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Anatomic_Structure_Has_Location"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R81"^^xsd:string,
+        Display_Name "Has Location"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate the physical location of an anatomic structure in the body. Both the domain and range for this role are 'Anatomic Structure, System, or Substance'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Characteristics: 
+        Transitive
+    
+    Domain: 
+        Anatomic_Structure_System_or_Substance
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Technique_Is_Used_In_Technique
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Is_Used_In_Technique</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Technique_Is_Used_In_Technique"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a technique is used to accomplish another technique or procedure. Both the domain and range for this role are 'Activity'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Technique_Is_Used_In_Technique"^^xsd:string,
+        code "R64"^^xsd:string,
+        Display_Name "Is Used In Technique"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Activity
+    
+    
+ObjectProperty: Chemical_Or_Drug_Has_Physiologic_Effect
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Has_Physiologic_Effect</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Physiologic Effect"^^xsd:string,
+        Preferred_Name "Chemical_Or_Drug_Has_Physiologic_Effect"^^xsd:string,
+        rdfs:label "Chemical_Or_Drug_Has_Physiologic_Effect"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to describe the primary detectable alterations of subcellular, cellular, tissue, or organ functions that directly result from alteration of function of a target biological molecule or complex caused by interaction of a therapeutic agent with a target molecule or complex. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R125"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Qualifier_Applies_To
+
+    Annotations: 
+        Preferred_Name "Qualifier_Applies_To"^^xsd:string,
+        code "A4"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Indicates the property or association that the qualifier is to be used with.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Qualifier Applies To"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Qualifier_Applies_To</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Qualifier_Applies_To"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    
+ObjectProperty: EO_Disease_Has_Associated_EO_Anatomy
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the general site, structure or system where a pathological process is located in an experimental organism. The domain and range for this role are 'Experimental Organism Diagnosis' and 'Experimental Organism Anatomical Concept', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Has Associated EO Anatomy"^^xsd:string,
+        code "R25"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Disease_Has_Associated_EO_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "EO_Disease_Has_Associated_EO_Anatomy"^^xsd:string,
+        Preferred_Name "EO_Disease_Has_Associated_EO_Anatomy"^^xsd:string
+    
+    Domain: 
+        Experimental_Organism_Diagnoses
+    
+    Range: 
+        Experimental_Organism_Anatomical_Concepts
+    
+    
+ObjectProperty: Disease_May_Have_Molecular_Abnormality
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that a molecular abnormality will only be present in some cases of the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "May Have Molecular Abnormality"^^xsd:string,
+        Preferred_Name "Disease_May_Have_Molecular_Abnormality"^^xsd:string,
+        code "R89"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Molecular_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Disease_May_Have_Molecular_Abnormality"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Has_CDRH_Parent
+
+    Annotations: 
+        rdfs:label "Has_CDRH_Parent"^^xsd:string,
+        Preferred_Name "Has_CDRH_Parent"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Has_CDRH_Parent</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "A10"^^xsd:string,
+        Display_Name "Has CDRH Parent"^^xsd:string
+    
+    
+ObjectProperty: Technique_Has_Target_Chemical_Or_Drug
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or method detects, targets, activates or inactivates a specific chemical or drug. The domain and range for this role are 'Activity' and 'Drug, Food, Chemical or Biomedical Material', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R61"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Target_Chemical_Or_Drug</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Technique_Has_Target_Chemical_Or_Drug"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Technique_Has_Target_Chemical_Or_Drug"^^xsd:string,
+        Display_Name "Has Target Chemical Or Drug"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Drugs_and_Chemicals
+    
+    
+ObjectProperty: Procedure_May_Have_Completely_Excised_Anatomy
+
+    Annotations: 
+        Preferred_Name "Procedure_May_Have_Completely_Excised_Anatomy"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_May_Have_Completely_Excised_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure sometimes results in complete excision of the target anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where complete excision is explicit or can be inferred. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "May Have Completely Excised Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R170"^^xsd:string,
+        rdfs:label "Procedure_May_Have_Completely_Excised_Anatomy"^^xsd:string
+    
+    SubPropertyOf: 
+        Procedure_Has_Excised_Anatomy
+    
+    
+ObjectProperty: Role_Has_Parent
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>For an NCI Thesaurus role this association specifies that the role exists as part of a role hierarchy and specifies the role's parent, the role that this role specializes.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Role_Has_Parent</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Role_Has_Parent"^^xsd:string,
+        rdfs:label "Role_Has_Parent"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "A3"^^xsd:string,
+        Display_Name "Role Has Parent"^^xsd:string
+    
+    
+ObjectProperty: Gene_Is_Biomarker_Of
+
+    Annotations: 
+        rdfs:label "Gene_Is_Biomarker_Of"^^xsd:string,
+        code "R39"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that expression or alteration of a gene is correlated with a particular disease or disease state or is predictive of the disease or disease state. The domain and range for this role are 'Gene' and Findings_and_Disorder_Kind, respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Procedure_Has_Excised_Anatomy
+
+    Annotations: 
+        Display_Name "Has Excised Anatomy"^^xsd:string,
+        code "R167"^^xsd:string,
+        Preferred_Name "Procedure_Has_Excised_Anatomy"^^xsd:string,
+        rdfs:label "Procedure_Has_Excised_Anatomy"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_Has_Excised_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure always involves excision of some or all of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs. It should be used when a more specific role cannot be asserted. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    SubPropertyOf: 
+        Procedure_May_Have_Excised_Anatomy
+    
+    
+ObjectProperty: Procedure_Has_Target_Anatomy
+
+    Annotations: 
+        code "R163"^^xsd:string,
+        Display_Name "Has Target Anatomy"^^xsd:string,
+        Preferred_Name "Procedure_Has_Target_Anatomy"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a procedure and its target anatomy, specifically that a particular procedure always has an association with the target anatomy. This role should be used when a more specific role cannot be asserted, including procedures targeting blood and other fluids. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Procedure_Has_Target_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_Has_Target_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    SubPropertyOf: 
+        Procedure_May_Have_Target_Anatomy
+    
+    
+ObjectProperty: Gene_Product_Is_Biomarker_Of
+
+    Annotations: 
+        code "R47"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Is_Biomarker_Of</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that presence of a gene product may contribute to clinical diagnosis, treatment selection, or prediction of clinical outcome. The domain and range for this role are 'Gene Product' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Is Biomarker Of"^^xsd:string,
+        rdfs:label "Gene_Product_Is_Biomarker_Of"^^xsd:string,
+        Preferred_Name "Gene_Product_Is_Biomarker_Of"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "This role does not imply a cause and effect."^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Chemotherapy_Regimen_Has_Component
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemotherapy_Regimen_Has_Component</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Component"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the component agents which are used in a particular chemotherapy regimen or agent combination. The domain and the range for this role are 'Chemotherapy Regimen or Agent Combination' and 'Drug, Food, Chemical or Biomedical Material', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Chemotherapy_Regimen_Has_Component"^^xsd:string,
+        rdfs:label "Chemotherapy_Regimen_Has_Component"^^xsd:string,
+        code "R123"^^xsd:string
+    
+    Domain: 
+        Chemotherapy_Regimen
+    
+    Range: 
+        Drugs_and_Chemicals
+    
+    
+ObjectProperty: Disease_Excludes_Molecular_Abnormality
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_ Molecular_Abnormality. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R140"^^xsd:string,
+        rdfs:label "Disease_Excludes_Molecular_Abnormality"^^xsd:string,
+        Display_Name "Excludes Molecular Abnormality"^^xsd:string,
+        Preferred_Name "Disease_Excludes_Molecular_Abnormality"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Molecular_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Has_NICHD_Parent
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Has_NICHD_Parent</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Has_NICHD_Parent"^^xsd:string,
+        rdfs:label "Has_NICHD_Parent"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "A11"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A property created to allow the source NICHD to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are the contributing source.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+ObjectProperty: Technique_Has_Sample_Or_Specimen_Anatomy
+
+    Annotations: 
+        rdfs:label "Technique_Has_Sample_Or_Specimen_Anatomy"^^xsd:string,
+        code "R58"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or a method uses a biological or clinical sample of anatomic origin. The domain and range for this role are 'Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Sample_Or_Specimen_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Sample Or Specimen Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Technique_Has_Sample_Or_Specimen_Anatomy"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: EO_Develops_Disease
+
+    Annotations: 
+        code "R78"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that an experimental organism is prone to the development of a disease. The domain and range for this role is 'Organism' and 'Experimental Organism Diagnosis', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Develops_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DesignNote "to be deleted"^^xsd:string,
+        Display_Name "Develops Disease"^^xsd:string,
+        Preferred_Name "EO_Develops_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "EO_Develops_Disease"^^xsd:string
+    
+    Domain: 
+        Organisms
+    
+    Range: 
+        Experimental_Organism_Diagnoses
+    
+    
+ObjectProperty: EO_Derived_By_Technique
+
+    Annotations: 
+        Display_Name "Derived By Technique"^^xsd:string,
+        code "R80"^^xsd:string,
+        Preferred_Name "EO_Derived_By_Technique"^^xsd:string,
+        rdfs:label "EO_Derived_By_Technique"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that an experimental organism was developed using a certain technique. The domain and range for this role is 'Organism' and 'Activity', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        DesignNote "to be deleted"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Derived_By_Technique</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Organisms
+    
+    Range: 
+        Activity
+    
+    
+ObjectProperty: Biological_Process_Has_Associated_Location
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Has_Associated_Location</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Biological_Process_Has_Associated_Location"^^xsd:string,
+        code "R30"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate the organ, organ system, cellular or subcellular location where a process occurs in a living system. The domain and range for this role are 'Biological Process' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Associated Location"^^xsd:string,
+        rdfs:label "Biological_Process_Has_Associated_Location"^^xsd:string
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: EO_Models_Human_Disease
+
+    Annotations: 
+        code "R79"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify that a disease in an experimental organism is sufficiently similar to a corresponding human disease so as to act as an experimental model for the human disease. The domain and the range for this role are 'Experimental Organism Diagnosis' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        DesignNote "to be deleted"^^xsd:string,
+        Preferred_Name "EO_Models_Human_Disease"^^xsd:string,
+        rdfs:label "EO_Models_Human_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Models_Human_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Models Human Disease"^^xsd:string
+    
+    Domain: 
+        Organisms
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Gene_Associated_With_Disease
+
+    Annotations: 
+        code "R38"^^xsd:string,
+        rdfs:label "Gene_Associated_With_Disease"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Associated_With_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that molecular abnormalities in a gene may be associated with the manifestation of a disease. The role is used to assert a link between a gene and a disease when the association is considered to have clinical relevance. The domain and range for this role are 'Gene' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Associated With Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Gene_Associated_With_Disease"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Gene_Product_Malfunction_Associated_With_Disease
+
+    Annotations: 
+        code "R48"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Malfunction_Associated_With_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that molecular abnormalities in a gene product may be associated with the manifestation of a disease. The role is used to assert a link between a gene product and a disease when the association is considered to have clinical relevance. The domain and range for this role are 'Gene Product' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Gene_Product_Malfunction_Associated_With_Disease"^^xsd:string,
+        Display_Name "Malfunction Associated With Disease"^^xsd:string,
+        rdfs:label "Gene_Product_Malfunction_Associated_With_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Gene_Product_Has_Structural_Domain_Or_Motif
+
+    Annotations: 
+        rdfs:label "Gene_Product_Has_Structural_Domain_Or_Motif"^^xsd:string,
+        Preferred_Name "Gene_Product_Has_Structural_Domain_Or_Motif"^^xsd:string,
+        Display_Name "Has Structural Domain Or Motif"^^xsd:string,
+        code "R50"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "We no longer curate this information and now favor linking out to externally curated databases. The source database for the link has yet to be decided."^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used specify information about protein domains or motifs present in a protein that can give insight into protein function. The domain and range for this role are 'Gene Product' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Structural_Domain_Or_Motif</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Disease_Excludes_Normal_Cell_Origin
+
+    Annotations: 
+        code "R138"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Normal_Cell_Origin</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Disease_Excludes_Normal_Cell_Origin"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_Normal_Cell_Origin. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Disease_Excludes_Normal_Cell_Origin"^^xsd:string,
+        Display_Name "Excludes Normal Cell Origin"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Gene_Has_Abnormality
+
+    Annotations: 
+        Display_Name "Has Abnormality"^^xsd:string,
+        Preferred_Name "Gene_Has_Abnormality"^^xsd:string,
+        rdfs:label "Gene_Has_Abnormality"^^xsd:string,
+        code "R132"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Has_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to establish a link between a gene and the genetic or molecular abnormalities that have been observed in human cells and tissues associated with cancers (e.g., over- or under-expressed, amplified, translocated). The domain and range for this role are 'Gene' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Allele_Absent_From_Wild-type_Chromosomal_Location
+
+    Annotations: 
+        Preferred_Name "Allele_Absent_From_Wild-type_Chromosomal_Location"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Absent_From_Wild-type_Chromosomal_Location</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Absent From Wild-type Chromosomal Location"^^xsd:string,
+        rdfs:label "Allele_Absent_From_Wild-type_Chromosomal_Location"^^xsd:string,
+        code "R156"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used for an allele whose location has changed from the wild-type gene chromosomal location. This role is used to negate an inherited role relationship that is asserted between the parent gene class and a chromosomal location when an allele has moved (e.g., translocation, inversion, etc.) . The domain and range for this role are 'Gene' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    SubPropertyOf: 
+        Gene_In_Chromosomal_Location
+    
+    
+ObjectProperty: Role_Has_Domain
+
+    Annotations: 
+        Preferred_Name "Role_Has_Domain"^^xsd:string,
+        rdfs:label "Role_Has_Domain"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Role_Has_Domain</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "A1"^^xsd:string,
+        Display_Name "Role Has Domain"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>For an NCI Thesaurus role this association specifies the role's domain kind.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    
+ObjectProperty: EO_Disease_Has_Property_Or_Attribute
+
+    Annotations: 
+        Preferred_Name "EO_Disease_Has_Property_Or_Attribute"^^xsd:string,
+        code "R26"^^xsd:string,
+        rdfs:label "EO_Disease_Has_Property_Or_Attribute"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Disease_Has_Property_Or_Attribute</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Property Or Attribute"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the clinical behavior, or other characteristic, of a disease in an experimental organism. The domain and range for this role are 'Experimental Organism Diagnosis' and 'Property or Attribute', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Experimental_Organism_Diagnoses
+    
+    Range: 
+        Properties_or_Attributes
+    
+    
+ObjectProperty: Disease_May_Have_Cytogenetic_Abnormality
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that a particular cytogenetic abnormality will only be present in some cases of the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "May Have Cytogenetic Abnormality"^^xsd:string,
+        code "R114"^^xsd:string,
+        rdfs:label "Disease_May_Have_Cytogenetic_Abnormality"^^xsd:string,
+        Preferred_Name "Disease_May_Have_Cytogenetic_Abnormality"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Cytogenetic_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Disease_Has_Normal_Tissue_Origin
+
+    Annotations: 
+        Preferred_Name "Disease_Has_Normal_Tissue_Origin"^^xsd:string,
+        rdfs:label "Disease_Has_Normal_Tissue_Origin"^^xsd:string,
+        code "R103"^^xsd:string,
+        Display_Name "Has Normal Tissue Origin"^^xsd:string,
+        DesignNote "This non-defining role represents non-essential characteristics which are true in some, but not all, cases, yet have an association frequent enough to be of interest."^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the type of normal tissue in which the disease process began. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Normal_Tissue_Origin</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Gene_Is_Element_In_Pathway
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Is_Element_In_Pathway</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Gene_Is_Element_In_Pathway"^^xsd:string,
+        DesignNote "In NCI Thesaurus, pathways are derived from BioCarta and KEGG and are associated with genes and proteins that comprise these pathways."^^xsd:string,
+        code "R130"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a gene and a biochemical pathway in which its encoded gene product(s) participate. This relationship is used only when gene has been implicated in a pathway by the curated source (Biocarta, KEGG or PID). The domain and range for this role are 'Gene' and 'Biochemical Pathway', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Gene_Is_Element_In_Pathway"^^xsd:string,
+        Display_Name "Is Element In Pathway"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Biochemical_Pathway
+    
+    
+ObjectProperty: Chemical_Or_Drug_Has_Mechanism_Of_Action
+
+    Annotations: 
+        Preferred_Name "Chemical_Or_Drug_Has_Mechanism_Of_Action"^^xsd:string,
+        rdfs:label "Chemical_Or_Drug_Has_Mechanism_Of_Action"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Has_Mechanism_Of_Action</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to imply the interaction or binding of an active ingredient of a drug/chemical agent at the molecular level with its target. When possible, the role value should reflect the direct alteration of function of a target molecule or complex. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R124"^^xsd:string,
+        Display_Name "Has Mechanism Of Action"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Technique_Has_Associated_Condition
+
+    Annotations: 
+        code "R56"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that a procedure or method is used in association with a finding or disease condition. The domain and range for this role are 'Activity' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Associated_Condition</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Technique_Has_Associated_Condition"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Associated Condition"^^xsd:string,
+        Preferred_Name "Technique_Has_Associated_Condition"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Is_Related_To_Endogenous_Product
+
+    Annotations: 
+        rdfs:label "Is_Related_To_Endogenous_Product"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Is_Related_To_Endogenous_Product</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "A9"^^xsd:string,
+        Preferred_Name "Is_Related_To_Endogenous_Product"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>An association that is asserted when there is a relationship or association between the therapeutic moiety and the endogenous gene product.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Is Related To Endogenous Product"^^xsd:string
+    
+    
+ObjectProperty: Procedure_May_Have_Excised_Anatomy
+
+    Annotations: 
+        Preferred_Name "Procedure_May_Have_Excised_Anatomy"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure sometimes results in excision of some or all of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs. It should be used when a more specific role cannot be asserted. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R166"^^xsd:string,
+        rdfs:label "Procedure_May_Have_Excised_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "May Have Excised Anatomy"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_May_Have_Excised_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    SubPropertyOf: 
+        Procedure_Has_Target_Anatomy
+    
+    
+ObjectProperty: Has_Free_Acid_Or_Base_Form
+
+    Annotations: 
+        code "A6"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to associate the salt form of a drug with its free acid or free base.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Has_Free_Acid_Or_Base_Form"^^xsd:string,
+        Display_Name "Has Free Acid Or Base Form"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "The free acid or base is responsible for the drug's therapeutic effect. Hence, the salt form of a drug has the same mechanism of action as the free acid or base form."^^xsd:string,
+        Preferred_Name "Has_Free_Acid_Or_Base_Form"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Has_Free_Acid_Or_Base_Form</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+ObjectProperty: Gene_Plays_Role_In_Process
+
+    Annotations: 
+        code "R37"^^xsd:string,
+        Display_Name "Plays Role In Process"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Plays_Role_In_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Gene_Plays_Role_In_Process"^^xsd:string,
+        rdfs:label "Gene_Plays_Role_In_Process"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a gene and a biological process in which its encoded gene product(s) participate. The domain and range for this role are 'Gene' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Procedure_Has_Completely_Excised_Anatomy
+
+    Annotations: 
+        rdfs:label "Procedure_Has_Completely_Excised_Anatomy"^^xsd:string,
+        Preferred_Name "Procedure_Has_Completely_Excised_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R171"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure always is intended for the complete excision of the target anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where complete excision is explicit or can be inferred.. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_Has_Completely_Excised_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Completely Excised Anatomy"^^xsd:string
+    
+    SubPropertyOf: 
+        Procedure_May_Have_Completely_Excised_Anatomy
+    
+    
+ObjectProperty: Biological_Process_Has_Initiator_Chemical_Or_Drug
+
+    Annotations: 
+        rdfs:label "Biological_Process_Has_Initiator_Chemical_Or_Drug"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Has_Initiator_Chemical_Or_Drug</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert the relationship between a biological process and a drug or chemical that stimulates the process. The role implies the direct physical interaction of a chemical or drug with a target molecule or complex that results in the initiation of the process. The domain and range for this role are 'Biological Process' and 'Drug, Food, Chemical or Biomedical Material', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Biological_Process_Has_Initiator_Chemical_Or_Drug"^^xsd:string,
+        code "R32"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Initiator Chemical Or Drug"^^xsd:string
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Drugs_and_Chemicals
+    
+    
+ObjectProperty: Gene_In_Chromosomal_Location
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_In_Chromosomal_Location</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Gene_In_Chromosomal_Location"^^xsd:string,
+        Preferred_Name "Gene_In_Chromosomal_Location"^^xsd:string,
+        code "R40"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "In Chromosomal Location"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a gene and its general location, specified by chromosomal band position (infrequently by chromosome number or chromosome arm). The domain and range for this role are 'Gene' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Disease_Has_Molecular_Abnormality
+
+    Annotations: 
+        rdfs:label "Disease_Has_Molecular_Abnormality"^^xsd:string,
+        Display_Name "Has Molecular Abnormality"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Molecular_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "R106"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Disease_Has_Molecular_Abnormality"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to a molecular abnormality that is present in the specified disease state. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Gene_Is_Biomarker_Type
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Is_Biomarker_Type</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Gene_Is_Biomarker_Type"^^xsd:string,
+        code "R36"^^xsd:string,
+        Display_Name "Is Biomarker Type"^^xsd:string,
+        rdfs:label "Gene_Is_Biomarker_Type"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to designate the type of biomarker a gene is; it points to a small tree of biomarker types (e.g., Disease Marker, Metabolic Marker, Prognostic Marker). The domain and range for this role are 'Gene' and 'Diagnostic or Prognostic Factor', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Diagnostic_or_Prognostic_Factor
+    
+    
+ObjectProperty: Chemical_Or_Drug_Affects_Abnormal_Cell
+
+    Annotations: 
+        Display_Name "Affects Abnormal Cell"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to establish the relationship between a therapeutic agent and an abnormal cell type associated with a disease condition. By pointing to abnormal cells, the therapeutic target of a drug can be more clearly conveyed. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Abnormal Cell', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R150"^^xsd:string,
+        Preferred_Name "Chemical_Or_Drug_Affects_Abnormal_Cell"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Affects_Abnormal_Cell</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Chemical_Or_Drug_Affects_Abnormal_Cell"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Abnormal_Cell
+    
+    
+ObjectProperty: Disease_Excludes_Cytogenetic_Abnormality
+
+    Annotations: 
+        rdfs:label "Disease_Excludes_Cytogenetic_Abnormality"^^xsd:string,
+        Preferred_Name "Disease_Excludes_Cytogenetic_Abnormality"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R141"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Cytogenetic_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_Cytogenetic_Abnormality. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Excludes Cytogenetic Abnormality"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Chemical_Or_Drug_Affects_Gene_Product
+
+    Annotations: 
+        Preferred_Name "Chemical_Or_Drug_Affects_Gene_Product"^^xsd:string,
+        Display_Name "Affects Gene Product"^^xsd:string,
+        rdfs:label "Chemical_Or_Drug_Affects_Gene_Product"^^xsd:string,
+        code "R146"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a gene product is the target of a therapeutic agent. The role implies a direct interaction between the product and the therapeutic agent but it does not specify the type of association (e.g., involvement, interference, inhibition or cleavage). The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Gene Product', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Affects_Gene_Product</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Gene_Product
+    
+    
+ObjectProperty: Biological_Process_Has_Result_Biological_Process
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Has_Result_Biological_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that the end result of a biological process initiates a subsequent biological process. Both the domain and the range for this role is 'Biological Process'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R34"^^xsd:string,
+        Preferred_Name "Biological_Process_Has_Result_Biological_Process"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Biological_Process_Has_Result_Biological_Process"^^xsd:string,
+        Display_Name "Has Result Biological Process"^^xsd:string
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Allele_Not_Associated_With_Disease
+
+    Annotations: 
+        Display_Name "Not Associated With Disease"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Not_Associated_With_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Allele_Not_Associated_With_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Allele_Not_Associated_With_Disease"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Gene_Associated_With_Disease that has been asserted for the gene class. The role is used when the assertion on the gene class is not valid for the specific allele. The domain and range for this role are 'Gene' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R152"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_Associated_With_Disease
+    
+    
+ObjectProperty: Chemical_Or_Drug_Has_Accepted_Therapeutic_Use_For
+
+    Annotations: 
+        Display_Name "Has Accepted Therapeutic Use For"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a drug is used as a treatment for a disease. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        DesignNote "to be deleted"^^xsd:string,
+        Preferred_Name "Chemical_Or_Drug_Has_Accepted_Therapeutic_Use_For"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Has_Accepted_Therapeutic_Use_For</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "R120"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Chemical_Or_Drug_Has_Accepted_Therapeutic_Use_For"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Chemical_Or_Drug_Has_Study_Therapeutic_Use_For
+
+    Annotations: 
+        Display_Name "Has Study Therapeutic Use For"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Has_Study_Therapeutic_Use_For</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Chemical_Or_Drug_Has_Study_Therapeutic_Use_For"^^xsd:string,
+        DesignNote "to be deleted"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a drug is in a study as a disease treatment. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R121"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Chemical_Or_Drug_Has_Study_Therapeutic_Use_For"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: EO_Disease_Has_Associated_Cell_Type
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the associated cell type of a disease in an experimental organism. The domain and range for this role are 'Experimental Organism Diagnosis' and 'Experimental Organism Anatomical Concept', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Disease_Has_Associated_Cell_Type</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Associated Cell Type"^^xsd:string,
+        code "R23"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "EO_Disease_Has_Associated_Cell_Type"^^xsd:string,
+        rdfs:label "EO_Disease_Has_Associated_Cell_Type"^^xsd:string
+    
+    Domain: 
+        Experimental_Organism_Diagnoses
+    
+    Range: 
+        Experimental_Organism_Anatomical_Concepts
+    
+    
+ObjectProperty: Disease_Excludes_Metastatic_Anatomic_Site
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Metastatic_Anatomic_Site</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Excludes Metastatic Anatomic Site"^^xsd:string,
+        rdfs:label "Disease_Excludes_Metastatic_Anatomic_Site"^^xsd:string,
+        Preferred_Name "Disease_Excludes_Metastatic_Anatomic_Site"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_ Metastatic_Anatomic_Site. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R136"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Anatomic_Structure_Is_Physical_Part_Of
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Anatomic_Structure_Is_Physical_Part_Of</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Anatomic_Structure_Is_Physical_Part_Of"^^xsd:string,
+        Preferred_Name "Anatomic_Structure_Is_Physical_Part_Of"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that an anatomic structure has a physical association with a broader system or organ. Both the domain and range for this role are 'Anatomic Structure, System, or Substance'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Is Physical Part Of"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R82"^^xsd:string
+    
+    Characteristics: 
+        Transitive
+    
+    Domain: 
+        Anatomic_Structure_System_or_Substance
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Disease_Excludes_Normal_Tissue_Origin
+
+    Annotations: 
+        Preferred_Name "Disease_Excludes_Normal_Tissue_Origin"^^xsd:string,
+        code "R137"^^xsd:string,
+        rdfs:label "Disease_Excludes_Normal_Tissue_Origin"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_Normal_Tissue_Origin. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Normal_Tissue_Origin</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Excludes Normal Tissue Origin"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Allele_Associated_With_Disease
+
+    Annotations: 
+        rdfs:label "Allele_Associated_With_Disease"^^xsd:string,
+        Display_Name "Associated With Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Gene_Associated_With_Disease that has been asserted for the gene class. The role is used to assert a link between the specific allele and disease and is considered to have clinical relevance. The domain and range for this role are 'Gene' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Allele_Associated_With_Disease"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Associated_With_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "R151"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_Associated_With_Disease
+    
+    
+ObjectProperty: Disease_May_Have_Normal_Cell_Origin
+
+    Annotations: 
+        Display_Name "May Have Normal Cell Origin"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Normal_Cell_Origin</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that a normal cell type will only be the type of origin in some cases of the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R112"^^xsd:string,
+        rdfs:label "Disease_May_Have_Normal_Cell_Origin"^^xsd:string,
+        Preferred_Name "Disease_May_Have_Normal_Cell_Origin"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Disease_May_Have_Associated_Disease
+
+    Annotations: 
+        code "R116"^^xsd:string,
+        rdfs:label "Disease_May_Have_Associated_Disease"^^xsd:string,
+        Display_Name "May Have Associated Disease"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that another disease or disorder will only be observed in some cases of the specified disease. Both the domain and the range for this role are 'Disease, Disorder or Finding'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Associated_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Disease_May_Have_Associated_Disease"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Chemical_Or_Drug_FDA_Approved_For_Disease
+
+    Annotations: 
+        rdfs:label "Chemical_Or_Drug_FDA_Approved_For_Disease"^^xsd:string,
+        Display_Name "FDA Approved For Disease"^^xsd:string,
+        Preferred_Name "Chemical_Or_Drug_FDA_Approved_For_Disease"^^xsd:string,
+        code "R70"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "This role originated from NDF RT terminology.  Due to the concern of inheritance issues, it is no longer maintained. This role likely will be converted into Association."^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a drug is approved by FDA to treat a disease. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_FDA_Approved_For_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Technique_Has_Target_Anatomy
+
+    Annotations: 
+        Display_Name "Has Target Anatomy"^^xsd:string,
+        code "R59"^^xsd:string,
+        rdfs:label "Technique_Has_Target_Anatomy"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or method detects or targets an anatomic structure. The domain and range for this role are 'Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Target_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Technique_Has_Target_Anatomy"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Concept_In_Subset
+
+    Annotations: 
+        Preferred_Name "Concept_In_Subset"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Concept Is In Subset"^^xsd:string,
+        code "A8"^^xsd:string,
+        rdfs:label "Concept_In_Subset"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Concept_In_Subset</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    
+ObjectProperty: Procedure_Has_Imaged_Anatomy
+
+    Annotations: 
+        code "R165"^^xsd:string,
+        Preferred_Name "Procedure_Has_Imaged_Anatomy"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between an imaging procedure and its target anatomy, specifically that a particular procedure always involves imaging the specified anatomy. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Has Imaged Anatomy"^^xsd:string,
+        rdfs:label "Procedure_Has_Imaged_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_Has_Imaged_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    SubPropertyOf: 
+        Procedure_May_Have_Imaged_Anatomy
+    
+    
+ObjectProperty: EO_Disease_Metastatic_To_EO_Anatomy
+
+    Annotations: 
+        rdfs:label "EO_Disease_Metastatic_To_EO_Anatomy"^^xsd:string,
+        Display_Name "Metastatic To EO Anatomy"^^xsd:string,
+        code "R87"^^xsd:string,
+        Preferred_Name "EO_Disease_Metastatic_To_EO_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease in experimental organism to the site of a metastatic lesion associated with the disease. The domain and the range for this role are 'Experimental Organism Diagnosis' and 'Experimental Organism Anatomical Concept, respectively'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Disease_Metastatic_To_EO_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Experimental_Organism_Diagnoses
+    
+    Range: 
+        Experimental_Organism_Anatomical_Concepts
+    
+    
+ObjectProperty: Biological_Process_Is_Part_Of_Process
+
+    Annotations: 
+        Preferred_Name "Biological_Process_Is_Part_Of_Process"^^xsd:string,
+        Display_Name "Is Part Of Process"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Is_Part_Of_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Biological_Process_Is_Part_Of_Process"^^xsd:string,
+        code "R35"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a biological process operates as a component of another biological process. Both the domain and the range for this role is 'Biological Process'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Gene_Product_Is_Physical_Part_Of
+
+    Annotations: 
+        rdfs:label "Gene_Product_Is_Physical_Part_Of"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Is_Physical_Part_Of</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Is Physical Part Of"^^xsd:string,
+        Preferred_Name "Gene_Product_Is_Physical_Part_Of"^^xsd:string,
+        code "R51"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that a gene product normally functions as a component of a \"functional complex\". Both the domain and range for this role are 'Gene Product'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Gene_Product
+    
+    
+ObjectProperty: Procedure_May_Have_Target_Anatomy
+
+    Annotations: 
+        code "R162"^^xsd:string,
+        Display_Name "May Have Target Anatomy"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a procedure and an anatomy concept, specifically that a particular procedure is sometimes associated with the target anatomy. This role should be used when a more specific role cannot be asserted, including procedures targeting blood and other fluids. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_May_Have_Target_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Procedure_May_Have_Target_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Procedure_May_Have_Target_Anatomy"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Gene_Found_In_Organism
+
+    Annotations: 
+        rdfs:label "Gene_Found_In_Organism"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Found_In_Organism</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the organism of origin for a gene. It may be used to differentiate genes with the same name and functions that originate from different organisms. The domain and range for this role are 'Gene' and 'Organism', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        DesignNote "Currently, we only model human genes, but this role has obvious utility in future, if other organisms are modeled as well."^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Gene_Found_In_Organism"^^xsd:string,
+        Display_Name "Found In Organism"^^xsd:string,
+        code "R41"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Organisms
+    
+    
+ObjectProperty: Technique_Has_Purpose
+
+    Annotations: 
+        rdfs:label "Technique_Has_Purpose"^^xsd:string,
+        Display_Name "Has Purpose"^^xsd:string,
+        Preferred_Name "Technique_Has_Purpose"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Purpose</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "R55"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify that a technique is used to accomplish a specific activity or task. Both the domain and range for this role are 'Activity'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Activity
+    
+    
+ObjectProperty: Disease_May_Have_Finding
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that a clinical observation, sign or symptom will only be observed in some cases of the disease. Both the domain and range for this role are 'Disease, Disorder or Finding'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R115"^^xsd:string,
+        rdfs:label "Disease_May_Have_Finding"^^xsd:string,
+        Preferred_Name "Disease_May_Have_Finding"^^xsd:string,
+        Display_Name "May Have Finding"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Finding</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Allele_Has_Abnormality
+
+    Annotations: 
+        rdfs:label "Allele_Has_Abnormality"^^xsd:string,
+        Display_Name "Has Abnormality"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Gene_Has_Abnormality that has been asserted for the gene class. This role is used to establish a link between a specific allele and genetic or molecular abnormalities that have been observed in human cells and tissues associated with cancer or another disease of interest. The domain and range for this role are 'Gene' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Has_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Allele_Has_Abnormality"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R153"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_Has_Abnormality
+    
+    
+ObjectProperty: Disease_Excludes_Abnormal_Cell
+
+    Annotations: 
+        rdfs:label "Disease_Excludes_Abnormal_Cell"^^xsd:string,
+        Preferred_Name "Disease_Excludes_Abnormal_Cell"^^xsd:string,
+        Display_Name "Excludes Abnormal Cell"^^xsd:string,
+        code "R139"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_Abnormal_Cell. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Abnormal Cell', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Abnormal_Cell</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Abnormal_Cell
+    
+    
+ObjectProperty: Gene_Product_Has_Malfunction_Type
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Malfunction_Type</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Gene_Product_Has_Malfunction_Type"^^xsd:string,
+        rdfs:label "Gene_Product_Has_Malfunction_Type"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used specify the type of abnormality present in a gene product that is associated with a disease state (e.g., overexpression, gene fusion, gene amplification, protein truncation). The domain and range for this role are 'Gene Product' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Malfunction Type"^^xsd:string,
+        code "R43"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Gene_Product_Encoded_By_Gene
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Encoded_By_Gene</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DesignNote "The reciprocal relationship is represented in the property Gene_Encodes_Product"^^xsd:string,
+        rdfs:label "Gene_Product_Encoded_By_Gene"^^xsd:string,
+        Preferred_Name "Gene_Product_Encoded_By_Gene"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a gene product and the gene that encodes it. The domain and range for this role are 'Gene Product' and 'Gene', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Encoded By Gene"^^xsd:string,
+        code "R54"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Gene
+    
+    
+ObjectProperty: Has_Target
+
+    Annotations: 
+        rdfs:label "Has_Target"^^xsd:string,
+        code "A7"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Has_Target</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Target"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Connects a drug or other agent to a clinically intended, molecular-scale target. The target value may be a gene, gene product, anatomic structure, biological process, or other concept, where the effect of the agent on the target is thought to be of therapeutic, diagnostic, or other clinical relevance to a disease process. The effect is most often direct, as defined at a molecular scale, but may also be indirect and/or defined at a larger scale.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Has_Target"^^xsd:string
+    
+    
+ObjectProperty: Gene_Product_Has_Organism_Source
+
+    Annotations: 
+        code "R45"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to differentiate homologous proteins from different organisms. The domain and range for this role are 'Gene Product' and 'Organism', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Has Organism Source"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Gene_Product_Has_Organism_Source"^^xsd:string,
+        rdfs:label "Gene_Product_Has_Organism_Source"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Organism_Source</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Organisms
+    
+    
+ObjectProperty: Disease_Has_Associated_Anatomic_Site
+
+    Annotations: 
+        Preferred_Name "Disease_Has_Associated_Anatomic_Site"^^xsd:string,
+        code "R100"^^xsd:string,
+        rdfs:label "Disease_Has_Associated_Anatomic_Site"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Associated Anatomic Site"^^xsd:string,
+        DesignNote "The role, Disease_Has_Associated_Anatomic_Site, is more general than the role, Disease_Has_Primary_Anatomic_Site.  Furthermore, when viewed with the role, Disease_Has_Metastatic_Anatomic_Site, there emerges a role hierarchy, where one role specializes the meaning of another, more general role.  Roles relating disease to anatomy start with a general assertion of association, often at very high level (e.g. Skin Disorder and Skin), and then add more specific primary/metastatic associations where appropriate for more specific concepts."^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the general site, structure or system where the specific pathological process is located. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Associated_Anatomic_Site</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Biological_Process_Has_Result_Anatomy
+
+    Annotations: 
+        rdfs:label "Biological_Process_Has_Result_Anatomy"^^xsd:string,
+        code "R31"^^xsd:string,
+        Preferred_Name "Biological_Process_Has_Result_Anatomy"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Has_Result_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that some biological event results in the formation of a subcellular complex, structure, cell, tissue or organ. This role is used to establish this relationship between the biological process and the anatomical factor formed. The domain and range for this role are 'Biological Process' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Has Result Anatomy"^^xsd:string
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a specific allele (product; enzyme) and drug-metabolizing efficacy. The domain and range for this role are 'Gene' and 'Drug, Food, Chemical or Biomedical Material', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Plays Role In Metabolism Of Chemical Or Drug"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug"^^xsd:string,
+        Preferred_Name "Allele_Plays_Role_In_Metabolism_Of_Chemical_Or_Drug"^^xsd:string,
+        code "R160"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Drugs_and_Chemicals
+    
+    
+ObjectProperty: Disease_Has_Normal_Cell_Origin
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Normal_Cell_Origin</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Has Normal Cell Origin"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the type of normal cell in which the disease process begins. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Disease_Has_Normal_Cell_Origin"^^xsd:string,
+        Preferred_Name "Disease_Has_Normal_Cell_Origin"^^xsd:string,
+        code "R104"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Gene_Has_Physical_Location
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to link a gene with its physical extent on a chromosome, denoted by the chromosome number and start and end base positions (with numbering beginning at the telomere of the short p arm). The domain and range for this role are 'Gene' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Has_Physical_Location</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Gene_Has_Physical_Location"^^xsd:string,
+        code "R145"^^xsd:string,
+        Preferred_Name "Gene_Has_Physical_Location"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "The standard for the numbering system is that assigned by the Human Genome Consortium and found at Entrez Gene. The role is considered as supplementary to the role Gene_In Chromosomal_Location"^^xsd:string,
+        Display_Name "Has Physical Location"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Technique_Has_Target_Organism
+
+    Annotations: 
+        Preferred_Name "Technique_Has_Target_Organism"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or method detects, targets, or treats a specified organism. The domain and range for this role are 'Activity' and 'Organism', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Target_Organism</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Technique_Has_Target_Organism"^^xsd:string,
+        code "R60"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Target Organism"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Organisms
+    
+    
+ObjectProperty: Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue
+
+    Annotations: 
+        rdfs:label "Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent the intended target cells for a chemical or drug. This does not include unintended target cells or tissues that are associated with side effects or toxicity of the chemical or drug. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R72"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Affects Cell Type Or Tissue"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Gene_Product_Has_Biochemical_Function
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to denote the biochemical activity of a gene product. Both the domain and range for this role are 'Gene Product'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Biochemical_Function</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Gene_Product_Has_Biochemical_Function"^^xsd:string,
+        Display_Name "Has Biochemical Function"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R52"^^xsd:string,
+        Preferred_Name "Gene_Product_Has_Biochemical_Function"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Gene_Product
+    
+    
+ObjectProperty: Disease_Excludes_Finding
+
+    Annotations: 
+        Preferred_Name "Disease_Excludes_Finding"^^xsd:string,
+        rdfs:label "Disease_Excludes_Finding"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Finding</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Excludes Finding"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_Finding. Both the domain and range for this role are 'Disease, Disorder or Finding'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R142"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Procedure_Has_Partially_Excised_Anatomy
+
+    Annotations: 
+        Display_Name "Has Partially Excised Anatomy"^^xsd:string,
+        rdfs:label "Procedure_Has_Partially_Excised_Anatomy"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure always involves partial excision of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where partial excision is explicit or can be inferred (e.g. biopsy). The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R169"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Procedure_Has_Partially_Excised_Anatomy"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_Has_Partially_Excised_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    SubPropertyOf: 
+        Procedure_May_Have_Partially_Excised_Anatomy
+    
+    
+ObjectProperty: Gene_Product_Expressed_In_Tissue
+
+    Annotations: 
+        Preferred_Name "Gene_Product_Expressed_In_Tissue"^^xsd:string,
+        code "R49"^^xsd:string,
+        DesignNote "This information is often useful to researchers. However, we no longer curate this information and now favor linking out to externally curated databases. Source database for the link has yet to be decided."^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Gene_Product_Expressed_In_Tissue"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Expressed_In_Tissue</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify that a normal tissue is the normal location for the expression of a gene product. The domain and range for this role are 'Gene Product' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Expressed In Tissue"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Disease_May_Have_Abnormal_Cell
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Abnormal_Cell</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "May Have Abnormal Cell"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that particular neoplastic cell types will only be present in some cases of the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Abnormal Cell', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R113"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Disease_May_Have_Abnormal_Cell"^^xsd:string,
+        rdfs:label "Disease_May_Have_Abnormal_Cell"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Abnormal_Cell
+    
+    
+ObjectProperty: Disease_Has_Primary_Anatomic_Site
+
+    Annotations: 
+        rdfs:label "Disease_Has_Primary_Anatomic_Site"^^xsd:string,
+        Display_Name "Has Primary Anatomic Site"^^xsd:string,
+        Preferred_Name "Disease_Has_Primary_Anatomic_Site"^^xsd:string,
+        code "R101"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the anatomical site where the originating pathological process is located. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DesignNote "This role can be viewed as a specialization of Disease_Has_Associated_Anatomic_Site."^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Primary_Anatomic_Site</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Allele_Not_Associated_With_Abnormality
+
+    Annotations: 
+        Preferred_Name "Allele_Not_Associated_With_Abnormality"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Not_Associated_With_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Not Associated With Abnormality"^^xsd:string,
+        rdfs:label "Allele_Not_Associated_With_Abnormality"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override the inherited role Gene_Has_Abnormality, retained at the Gene class. It is used when the assertion on the gene class is not valid for the specific allele. The domain and range for this role are 'Gene' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R154"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_Has_Abnormality
+    
+    
+ObjectProperty: Chemical_Or_Drug_Is_Metabolized_By_Enzyme
+
+    Annotations: 
+        rdfs:label "Chemical_Or_Drug_Is_Metabolized_By_Enzyme"^^xsd:string,
+        Display_Name "Is Metabolized By Enzyme"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify that an enzyme is directly responsible for metabolizing a chemical or drug into an active form, inactive form, or both. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Gene Product', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Is_Metabolized_By_Enzyme</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Chemical_Or_Drug_Is_Metabolized_By_Enzyme"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R122"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Gene_Product
+    
+    
+ObjectProperty: Gene_Product_Is_Biomarker_Type
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to designate the type of biomarker a gene product is; it points to a small tree of biomarker types (e.g., Disease Marker, Metabolic Marker, Prognostic Marker). The domain and range for this role are 'Gene Product' and 'Diagnostic or Prognostic Factor', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Is Biomarker Type"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Is_Biomarker_Type</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Gene_Product_Is_Biomarker_Type"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Gene_Product_Is_Biomarker_Type"^^xsd:string,
+        code "R42"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Diagnostic_or_Prognostic_Factor
+    
+    
+ObjectProperty: EO_Anatomic_Structure_Is_Physical_Part_Of
+
+    Annotations: 
+        Display_Name "Is Physical Part Of"^^xsd:string,
+        code "R22"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that an experimental organism anatomic structure has a physical association with a broader system or organ. Both the domain and range for this role is 'Experimental Organism Anatomical Concept'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "EO_Anatomic_Structure_Is_Physical_Part_Of"^^xsd:string,
+        rdfs:label "EO_Anatomic_Structure_Is_Physical_Part_Of"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Anatomic_Structure_Is_Physical_Part_Of</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Experimental_Organism_Anatomical_Concepts
+    
+    Range: 
+        Experimental_Organism_Anatomical_Concepts
+    
+    
+ObjectProperty: Disease_Is_Grade
+
+    Annotations: 
+        code "R110"^^xsd:string,
+        Display_Name "Is Grade"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Disease_Is_Grade"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to a grading system which classifies the cancer cells in terms of how abnormal they appear when examined under a microscope. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Property or_Attribute', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Is_Grade</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Disease_Is_Grade"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Properties_or_Attributes
+    
+    
+ObjectProperty: Disease_Has_Associated_Disease
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Associated_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to another disease or disorder, but without specification or limitation of the relationship (causality or timing for example). Both the domain and the range for this role are 'Disease, Disorder or Finding'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R126"^^xsd:string,
+        Preferred_Name "Disease_Has_Associated_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Disease_Has_Associated_Disease"^^xsd:string,
+        Display_Name "Has Associated Disease"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Technique_Has_Sample_Or_Specimen_Chemical_Or_Drug
+
+    Annotations: 
+        Display_Name "Has Sample Or Specimen Chemical Or Drug"^^xsd:string,
+        rdfs:label "Technique_Has_Sample_Or_Specimen_Chemical_Or_Drug"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Sample_Or_Specimen_Chemical_Or_Drug</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Technique_Has_Sample_Or_Specimen_Chemical_Or_Drug"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or method uses a specific chemical or drug. The domain and range for this role are 'Activity' and 'Drug, Food, Chemical or Biomedical Material', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R62"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Drugs_and_Chemicals
+    
+    
+ObjectProperty: Disease_Is_Stage
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the disease stage of a disease, the extent to which a cancer has spread from the original site to other parts of the body. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Property or_Attribute', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Disease_Is_Stage"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Is_Stage</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Disease_Is_Stage"^^xsd:string,
+        code "R88"^^xsd:string,
+        Display_Name "Is Stage"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Properties_or_Attributes
+    
+    
+ObjectProperty: Procedure_May_Have_Partially_Excised_Anatomy
+
+    Annotations: 
+        Preferred_Name "Procedure_May_Have_Partially_Excised_Anatomy"^^xsd:string,
+        code "R168"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a surgical procedure and its target anatomy, specifically that a particular procedure sometimes results in partial excision of the specified anatomy. This role is applicable to procedures or techniques that involve excision of solid tissues or organs, and where partial excision is explicit or can be inferred (e.g. biopsy). The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "May Have Partially Excised Anatomy"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_May_Have_Partially_Excised_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Procedure_May_Have_Partially_Excised_Anatomy"^^xsd:string
+    
+    SubPropertyOf: 
+        Procedure_Has_Excised_Anatomy
+    
+    
+ObjectProperty: Allele_Is_Cancer_Related_Type
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between an allele and its cancer-related gene type (e.g. oncogene, tumor suppressor gene). The role is used to tag oncogenes/TSGs/etc. Both the domain and range for this role are 'Gene'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Is_Cancer_Related_Type</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Allele_Is_Cancer_Related_Type"^^xsd:string,
+        Display_Name "Is Cancer Related Type"^^xsd:string,
+        rdfs:label "Allele_Is_Cancer_Related_Type"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R161"^^xsd:string
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Gene
+    
+    
+ObjectProperty: Procedure_May_Have_Imaged_Anatomy
+
+    Annotations: 
+        code "R164"^^xsd:string,
+        rdfs:label "Procedure_May_Have_Imaged_Anatomy"^^xsd:string,
+        Display_Name "May Have Imaged Anatomy"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Procedure_May_Have_Imaged_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between an imaging procedure and its target anatomy, specifically that a particular procedure sometimes results in imaging the specified anatomy. The domain and range for this role are 'Clinical or Research Activity' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Procedure_May_Have_Imaged_Anatomy"^^xsd:string
+    
+    SubPropertyOf: 
+        Procedure_Has_Target_Anatomy
+    
+    
+ObjectProperty: Gene_Product_Is_Element_In_Pathway
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert a relationship between a gene product and a biochemical pathway in which it participates. This relationship is used only when a gene product has been implicated in a pathway by the curated source (Biocarta, KEGG or PID). The domain and range for this role are 'Gene Product' and 'Biochemical Pathway', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        DesignNote "In NCI Thesaurus, pathways are derived from BioCarta and KEGG and are associated with genes and proteins that comprise these pathways."^^xsd:string,
+        Preferred_Name "Gene_Product_Is_Element_In_Pathway"^^xsd:string,
+        code "R131"^^xsd:string,
+        rdfs:label "Gene_Product_Is_Element_In_Pathway"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Is Element In Pathway"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Is_Element_In_Pathway</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Biochemical_Pathway
+    
+    
+ObjectProperty: Disease_May_Have_Normal_Tissue_Origin
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to represent that a normal tissue type will only be the type of origin in some cases of the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R111"^^xsd:string,
+        rdfs:label "Disease_May_Have_Normal_Tissue_Origin"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_May_Have_Normal_Tissue_Origin</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "May Have Normal Tissue Origin"^^xsd:string,
+        Preferred_Name "Disease_May_Have_Normal_Tissue_Origin"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Allele_Plays_Altered_Role_In_Process
+
+    Annotations: 
+        rdfs:label "Allele_Plays_Altered_Role_In_Process"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used for an allele whose encoded product functions differently (qualitatively or quantitatively) from the function asserted on its parent. It specializes the function of the wild type gene/gene product. The domain and range for this role are 'Gene' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Display_Name "Plays Altered Role In Process"^^xsd:string,
+        Preferred_Name "Allele_Plays_Altered_Role_In_Process"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Plays_Altered_Role_In_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "R158"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_Plays_Role_In_Process
+    
+    
+ObjectProperty: Allele_Ceases_Function_In_Pathway
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Ceases_Function_In_Pathway</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DesignNote "In NCI Thesaurus, pathways are derived from BioCarta and KEGG and are associated with genes and proteins that comprise these pathways."^^xsd:string,
+        Display_Name "Ceases Function In Pathway"^^xsd:string,
+        code "R157"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Gene_is_Element_in_Pathway asserted at the gene class. This is used when an allele no longer functions in the specified pathway, due to a variation in the gene. The domain and range for this role are 'Gene' and 'Biochemical Pathway', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Allele_Ceases_Function_In_Pathway"^^xsd:string,
+        rdfs:label "Allele_Ceases_Function_In_Pathway"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_Is_Element_In_Pathway
+    
+    
+ObjectProperty: Chemical_Or_Drug_Plays_Role_In_Biological_Process
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Chemical_Or_Drug_Plays_Role_In_Biological_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Display_Name "Plays Role In Biological Process"^^xsd:string,
+        DesignNote "to be deleted"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Chemical_Or_Drug_Plays_Role_In_Biological_Process"^^xsd:string,
+        rdfs:label "Chemical_Or_Drug_Plays_Role_In_Biological_Process"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that an active ingredient of a drug or chemical agent influences a biological process. The role implies a direct association with a target biological molecule or complex involved in the process. The domain and range for this role are 'Drug, Food, Chemical or Biomedical Material' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R66"^^xsd:string
+    
+    Domain: 
+        Drugs_and_Chemicals
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Biological_Process_Has_Initiator_Process
+
+    Annotations: 
+        Display_Name "Has Initiator Process"^^xsd:string,
+        code "R28"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that the initiation of the stated biological process is dependent on the progression or completion of another process. The role implies a direct physical and functional interaction of an element from the preceding biological process with a target molecule or complex involved in the initial stages of the stated process. Both the domain and the range for this role are 'Biological Process'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Biological_Process_Has_Initiator_Process"^^xsd:string,
+        rdfs:label "Biological_Process_Has_Initiator_Process"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Biological_Process_Has_Initiator_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Biological_Process
+    
+    Range: 
+        Biological_Process
+    
+    
+ObjectProperty: Gene_Product_Has_Associated_Anatomy
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify physical structures or typical subcellular locations of a gene product. The domain and range for this role are 'Gene Product' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Associated_Anatomy</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Gene_Product_Has_Associated_Anatomy"^^xsd:string,
+        code "R46"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Gene_Product_Has_Associated_Anatomy"^^xsd:string,
+        Display_Name "Has Associated Anatomy"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Allele_In_Chromosomal_Location
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_In_Chromosomal_Location</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Allele_In_Chromosomal_Location"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used for an allele whose location has changed from the wild-type gene chromosomal location. This role is used to assert a new location that differs from the wild-type gene chromosomal location. The domain and range for this role are 'Gene' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Allele_In_Chromosomal_Location"^^xsd:string,
+        code "R155"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "In Chromosomal Location"^^xsd:string
+    
+    SubPropertyOf: 
+        Gene_In_Chromosomal_Location
+    
+    
+ObjectProperty: Gene_Product_Has_Abnormality
+
+    Annotations: 
+        Display_Name "Has Abnormality"^^xsd:string,
+        rdfs:label "Gene_Product_Has_Abnormality"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Gene_Product_Has_Abnormality"^^xsd:string,
+        code "R133"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to establish a link between a gene product and the molecular abnormalities that are observed in human cells and tissues in association with diseases such as cancers (e.g., over or under-expression of gene product). The domain and range for this role are 'Gene Product' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: EO_Disease_Maps_To_Human_Disease
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>EO_Disease_Maps_To_Human_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        code "R24"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role is used to establish a relationship between a disease in an experimental organism and a corresponding human disease. The domain and the range for this role are 'Experimental Organism Diagnosis' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "EO_Disease_Maps_To_Human_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Maps To Human Disease"^^xsd:string,
+        rdfs:label "EO_Disease_Maps_To_Human_Disease"^^xsd:string
+    
+    Domain: 
+        Experimental_Organism_Diagnoses
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Disease_Has_Cytogenetic_Abnormality
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the type of chromosomal abnormality present in the specified disease state. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Molecular Abnormality', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Disease_Has_Cytogenetic_Abnormality"^^xsd:string,
+        Display_Name "Has Cytogenetic Abnormality"^^xsd:string,
+        rdfs:label "Disease_Has_Cytogenetic_Abnormality"^^xsd:string,
+        code "R107"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Cytogenetic_Abnormality</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Molecular_Abnormality
+    
+    
+ObjectProperty: Technique_Has_Target_Disease
+
+    Annotations: 
+        code "R57"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or method detects, diagnoses, or treats a specified disease state. The domain and range for this role are 'Activity' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Technique_Has_Target_Disease"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Target_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Technique_Has_Target_Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Target Disease"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Has_Salt_Form
+
+    Annotations: 
+        DesignNote "USAGE NOTE: A salt form of a drug consists of 2 parts, one acidic and one basic group that are readily disassociated in liquid phase. Salt forms are either salts of strong acids and basic drugs (e.g. Atropine Sulfate, Cetirizine Hydrochloride) or salts of strong bases and acidic drugs (Allopurinol Sodium). This association is usually used in conjunction with Has_Free_Acid_Or_Base_Form."^^xsd:string,
+        code "A5"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Has_Salt_Form</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Has_Salt_Form"^^xsd:string,
+        rdfs:label "Has_Salt_Form"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>Used to associate a drug with its various salt forms.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Salt Form"^^xsd:string
+    
+    
+ObjectProperty: Disease_Excludes_Primary_Anatomic_Site
+
+    Annotations: 
+        Display_Name "Excludes Primary Anatomic Site"^^xsd:string,
+        Preferred_Name "Disease_Excludes_Primary_Anatomic_Site"^^xsd:string,
+        rdfs:label "Disease_Excludes_Primary_Anatomic_Site"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Excludes_Primary_Anatomic_Site</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R135"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A specializing role which may be used to override Disease_Has_Associated_Anatomic_Site. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Role_Has_Range
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>For an NCI Thesaurus role this association specifies the role's range kind.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Role_Has_Range"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Role_Has_Range</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Role Has Range"^^xsd:string,
+        code "A2"^^xsd:string,
+        rdfs:label "Role_Has_Range"^^xsd:string
+    
+    
+ObjectProperty: Technique_Uses_Equipment
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Uses_Equipment</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Technique_Uses_Equipment"^^xsd:string,
+        rdfs:label "Technique_Uses_Equipment"^^xsd:string,
+        Display_Name "Uses Equipment"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a technique requires use of specific artifacts or pieces of equipment. The domain and range for this role are 'Activity' and 'Diagnostic, Therapeutic, or Research Equipment', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R63"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Diagnostic_Therapeutic_and_Research_Equipment
+    
+    
+ObjectProperty: Conceptual_Part_Of
+
+    Annotations: 
+        code "R27"^^xsd:string,
+        Display_Name "Part Of"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to indicate that a conceptual entity is a sub-entity of another conceptual entity. Both the domain and the range for this role are 'Conceptual Entity'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Preferred_Name "Conceptual_Part_Of"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Conceptual_Part_Of</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Conceptual_Part_Of"^^xsd:string
+    
+    Domain: 
+        Conceptual_Entities
+    
+    Range: 
+        Conceptual_Entities
+    
+    
+ObjectProperty: Gene_Product_Has_Chemical_Classification
+
+    Annotations: 
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to specify the physical structure type of a protein molecule (e.g. metalloprotein, transmembrane protein). Both the domain and range for this role are 'Gene Product'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        rdfs:label "Gene_Product_Has_Chemical_Classification"^^xsd:string,
+        Preferred_Name "Gene_Product_Has_Chemical_Classification"^^xsd:string,
+        Display_Name "Has Chemical Classification"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Has_Chemical_Classification</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DesignNote "The role was originally intended for protein structure tagging (e.g., Phosphoprotein, Lipoprotein).  Was extended to also tag for Membrane Protein, Protein Complex Subunit, etc."^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R44"^^xsd:string
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Gene_Product
+    
+    
+ObjectProperty: Disease_Has_Metastatic_Anatomic_Site
+
+    Annotations: 
+        Preferred_Name "Disease_Has_Metastatic_Anatomic_Site"^^xsd:string,
+        code "R102"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the site of a metastatic lesion associated with the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Anatomic Structure, System, or Substance', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Metastatic_Anatomic_Site</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Disease_Has_Metastatic_Anatomic_Site"^^xsd:string,
+        DesignNote "The role can be viewed as a specialization of Disease_Has_Associated_Anatomic_Site."^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        Display_Name "Has Metastatic Anatomic Site"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Anatomic_Structure_System_or_Substance
+    
+    
+ObjectProperty: Regimen_Has_Accepted_Use_For_Disease
+
+    Annotations: 
+        rdfs:label "Regimen_Has_Accepted_Use_For_Disease"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Regimen_Has_Accepted_Use_For_Disease</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Preferred_Name "Regimen_Has_Accepted_Use_For_Disease"^^xsd:string,
+        Display_Name "Has Accepted Use For Disease"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to link established therapeutic regimens to their corresponding cancers or other diseases. Only established regimens published in NCI's Physician Data Query (PDQ), National Comprehensive Cancer Network (NCCN) Guidelines (http://www.nccn.org), or a limited number of other authoritative sources such as the Physician's Cancer Chemotherapy Manual are included. The domain and range for this role are 'Chemotherapy Regimen or Agent Combination' and 'Disease, Disorder or Finding', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R172"^^xsd:string
+    
+    Domain: 
+        Chemotherapy_Regimen
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Allele_Has_Activity
+
+    Annotations: 
+        Display_Name "Has Activity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert the observed level of activity associated with an allele in a given biological process, compared to the wild-type gene. The domain and range for this role are 'Gene' and 'Property or Attribute', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        code "R159"^^xsd:string,
+        rdfs:label "Allele_Has_Activity"^^xsd:string,
+        Preferred_Name "Allele_Has_Activity"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Allele_Has_Activity</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene
+    
+    Range: 
+        Properties_or_Attributes
+    
+    
+ObjectProperty: Disease_Has_Abnormal_Cell
+
+    Annotations: 
+        code "R105"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Abnormal_Cell</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        rdfs:label "Disease_Has_Abnormal_Cell"^^xsd:string,
+        Display_Name "Has Abnormal Cell"^^xsd:string,
+        Preferred_Name "Disease_Has_Abnormal_Cell"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to the type of neoplastic cell present in and characteristic of the disease. The domain and the range for this role are 'Disease, Disorder or Finding' and 'Abnormal Cell', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Abnormal_Cell
+    
+    
+ObjectProperty: Disease_Has_Finding
+
+    Annotations: 
+        rdfs:label "Disease_Has_Finding"^^xsd:string,
+        Display_Name "Has Finding"^^xsd:string,
+        Preferred_Name "Disease_Has_Finding"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Disease_Has_Finding</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to relate a disease to a clinical observation, sign or symptom present in and characteristic of the disease. Both the domain and range for this role are 'Disease, Disorder or Finding'.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R108"^^xsd:string
+    
+    Domain: 
+        Diseases_Disorders_and_Findings
+    
+    Range: 
+        Diseases_Disorders_and_Findings
+    
+    
+ObjectProperty: Technique_Has_Target_Protein
+
+    Annotations: 
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Technique_Has_Target_Protein</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        rdfs:label "Technique_Has_Target_Protein"^^xsd:string,
+        Display_Name "Has Target Protein"^^xsd:string,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a procedure or method identifies, isolates, activates or inactivates a specified protein. The domain and range for this role are 'Activity' and 'Gene Product', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral,
+        Preferred_Name "Technique_Has_Target_Protein"^^xsd:string,
+        code "R65"^^xsd:string
+    
+    Domain: 
+        Activity
+    
+    Range: 
+        Gene_Product
+    
+    
+ObjectProperty: Gene_Product_Plays_Role_In_Biological_Process
+
+    Annotations: 
+        Preferred_Name "Gene_Product_Plays_Role_In_Biological_Process"^^xsd:string,
+        DesignNote "Considered by most researchers to be essential, definitional information about a gene product."^^xsd:string,
+        Display_Name "Plays Role In Biological Process"^^xsd:string,
+        FULL_SYN "<ncicp:ComplexTerm><ncicp:term-name>Gene_Product_Plays_Role_In_Biological_Process</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>"^^rdf:XMLLiteral,
+        Semantic_Type "Conceptual Entity"^^xsd:string,
+        code "R53"^^xsd:string,
+        rdfs:label "Gene_Product_Plays_Role_In_Biological_Process"^^xsd:string,
+        DEFINITION "<ncicp:ComplexDefinition><ncicp:def-definition>A role used to assert that a gene product participates in a specific biological process. The domain and range for this role are 'Gene Product' and 'Biological Process', respectively.</ncicp:def-definition><ncicp:def-source>NCI</ncicp:def-source></ncicp:ComplexDefinition>"^^rdf:XMLLiteral
+    
+    Domain: 
+        Gene_Product
+    
+    Range: 
+        Biological_Process
+    
+

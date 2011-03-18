@@ -1,0 +1,39 @@
+TODO:
+
+* Create a framework for unit testing with preconditions and postconditions. Possibly use python or jython to aggregate statements together.
+* Break out classes and individuals into more files. Possibly one per file? Maybe with this kind of structure:
+
+Entity.omn
+Entity/Person.omn
+Entity/Person/Patient.omn
+Entity/Person/instances.omn (containing the instances of that type).
+
+This can be interleaved with tests for those classes. For instance:
+
+Entity/Person.test
+
+The test would be a python snippet, probably looking like this:
+
+preconditions += '''
+Individual: Jim_McCusker
+    Types: Person
+'''
+
+postconditions += '''
+Individual: Jim_McCusker
+    Types: Entity
+'''
+
+negativeConditions += '''
+# Can't infer anything about a label, 
+# since we haven't stated anything.
+Individual: Jim_McCusker
+    rdfs:label: "Jim McCusker"
+'''
+
+Each test would be aggregated together into three files: preconditions, postconditions, and negative conditions. The test process would be:
+
+* Aggregate the statements
+* Extract all statements from the preconditions + thesaurus.
+* If the graph difference of postconditions - postconditions contains anything, then they are test failures.
+* If the graph intersection of preconditions and negative conditions contains anything, then they are test failures.
