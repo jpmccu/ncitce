@@ -1,0 +1,13 @@
+NCI Thesaurus has had a number of issues that have not yet been addressed. Bob Freimuth and I have discussed the idea of setting up a community driven refactoring of NCIt to resolve some of those issues. Bob and I have also spoken with Sherri D. about possibly accepting changes from this kind of project.
+
+Towards that end, I've set up a github repository for "NCItce", or "NCI Thesaurus, Community Edition". This is, as with everything else, a working title. We are taking a test-driven development strategy to this. I'll be developing a way of running tests based on preconditions and postconditions for reasoning using the thesaurus, and I've converted it to Manchester OWL syntax (take a look to see what it looks like) to make it relatively human readable and editable in a similar way that source code is.
+
+The project is at https://github.com/jimmccusker/ncitce
+
+Step one is to start recording issues with NCIt in the github issue tracker. We can then write tests to express the expected behavior, and then modify the source (NCItce) to pass those tests.
+
+Anyone can contribute by expressing issues with NCI thesaurus where the hierarchy doesn't meet your expectations, and we can work through fixing those issues using the above workflow.
+
+Bob has also offered to set up the EVS tools for browsing our modified NCIt to support identifying issues.
+
+At some point, we will probably want to come up with a better name for it, once that matters.
